@@ -1,3 +1,19 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+
+.footer{
+  color: #fff;
+  font-size: small;
+  font-weight: 300;
+  text-align: center;
+  /* padding: 10px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ancora-link{
+  color: #fff;
+  text-decoration: none;
+}
