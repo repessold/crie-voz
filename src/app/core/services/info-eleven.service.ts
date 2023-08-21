@@ -7,12 +7,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class InfoElevenService {
 
- protected readonly API= environment.API;
+  protected readonly API = environment.API;
 
-constructor(
-
-) { }
-
-
+  constructor() { }
 
 }
