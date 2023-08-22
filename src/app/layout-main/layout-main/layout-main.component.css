@@ -2,6 +2,18 @@
   flex: 1 1 auto;
 }
 
+.example-form {
+  min-width: 250px;
+  max-width: 500px;
+   width: 100%;
+}
+
+.example-full-width {
+  padding-top: 100px;
+  padding-left: 20px;
+  width: 33%;
+}
+
 .footer{
   color: #fff;
   font-size: small;

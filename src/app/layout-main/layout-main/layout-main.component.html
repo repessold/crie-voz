@@ -2,16 +2,24 @@
      <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button> -->
-    <span>Crie Voz</span>
+    <span [routerLink]="['generate-voice']" aria-label="Cabeçalho com o nome da página 'Crie Voz'">Crie Voz</span>
     <span class="example-spacer"></span>
     <button mat-icon-button class="example-icon favorite-icon" aria-label="Botão para sair do site com um ícone de seta">
       <mat-icon>login</mat-icon>
     </button>
   </mat-toolbar>
 
+   <!-- <form class="content">
+     <mat-form-field class="example-full-width" aria-label="Espaço para digitar o texto a ser convertido em aúdio">
+      <mat-label>Digite o seu texto</mat-label>
+      <textarea matInput placeholder=""></textarea>
+       </mat-form-field>
+   </form> -->
+
+
   <mat-toolbar color="primary" class="footer" aria-label="Rodapé do site, indicando qual api foi usada na construção da página">
       <mat-toolbar-row>
-          <p> &copy; 2023 This website was created utilizing <a href="https://elevenlabs.io/speech-synthesis" class="ancora-link" >11.ai</a></p>
+          <p> &copy; 2023 <a href="https://elevenlabs.io/speech-synthesis" class="ancora-link" >11.ai</a></p>
       </mat-toolbar-row>
   </mat-toolbar>
 

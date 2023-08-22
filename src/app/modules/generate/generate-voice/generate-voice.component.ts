@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GenerateVoiceComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
   }
+
+
 
 }

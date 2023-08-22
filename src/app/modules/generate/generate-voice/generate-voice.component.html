@@ -1,3 +1,23 @@
-<p>
-  generate-voice works!
-</p>
+<div class="content">
+  <mat-form-field class="example-full-width" aria-label="Espaço para digitar o texto a ser convertido em aúdio">
+    <mat-label>Digite o seu texto</mat-label>
+    <textarea matInput placeholder="" id="textarea"></textarea>
+  </mat-form-field>
+</div>
+<div class="actions">
+    <mat-form-field>
+      <mat-select id="voices" color="primary">
+        <mat-option value="">Voice </mat-option>
+        <mat-option value="">Voice </mat-option>
+        <mat-option value="">Voice </mat-option>
+        <mat-option value="">Voice </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  <div class="play-button">
+    <button mat-fab color="primary"  title="Botão para iniciar o áudio"
+      aria-label="Botão com um símbolo de play">
+      <mat-icon class="mat-18 ">play_circle_outline</mat-icon>
+    </button>
+  </div>
+</div>

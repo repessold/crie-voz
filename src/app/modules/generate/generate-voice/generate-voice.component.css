@@ -1,4 +1,35 @@
-.content {
+.content{
+  display: flex;
+  justify-content: right;
   flex: 1;
   padding: 20px;
+}
+/* .example-spacer {
+  flex: 1 1 auto;
+} */
+
+/* .example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+} */
+
+.example-full-width{
+  padding-top: 100px;
+  padding-left: 20px;
+  width: 43%;
+  /* outline: 0; */
+}
+.actions{
+  display: flex;
+  justify-content: right;
+  flex: 1;
+  padding-right: 20px;
+}
+
+
+.play-button{
+  padding-left: 15px;
+
+
 }
