@@ -33,3 +33,9 @@
 
 
 }
+
+.container-fotos{
+  width: 120px;
+  height: 200px;
+  display: inline-block;
+}
