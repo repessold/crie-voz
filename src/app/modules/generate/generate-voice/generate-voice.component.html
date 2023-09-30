@@ -15,8 +15,8 @@
     </mat-form-field>
 
   <div class="play-button">
-    <button mat-fab color="primary"  title="Botão para iniciar o áudio"
-      aria-label="Botão com um símbolo de play" >
+    <button (click)="postTextToSpeech()" mat-fab color="primary"  title="Botão para iniciar o áudio"
+      aria-label="Botão com um símbolo de play">
       <mat-icon class="mat-18 ">play_circle_outline</mat-icon>
     </button>
   </div>
