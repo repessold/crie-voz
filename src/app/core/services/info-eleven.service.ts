@@ -30,7 +30,7 @@ export class InfoElevenService {
 
     const headers = {
       'Content-Type': 'application/json',
-      'xi-api-key': '530918fb46da5ee32e6f902e7982e837',
+      'xi-api-key': '8378854045836059ebbc05e333075b33',
     };
 
     const body = {
