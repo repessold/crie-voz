@@ -1,6 +1,6 @@
 export const environment={
   production: false,
   API:'/api.elevenlabs.io',
-  API_KEY: '530918fb46da5ee32e6f902e7982e837'
+  API_KEY: '8378854045836059ebbc05e333075b33'
 
 }

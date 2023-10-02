@@ -7,7 +7,6 @@ import { InfoElevenService } from 'src/app/core/services/info-eleven.service';
   styleUrls: ['./generate-voice.component.css']
 })
 export class GenerateVoiceComponent implements OnInit {
-
   models!:string;
 
   constructor(
@@ -24,6 +23,18 @@ export class GenerateVoiceComponent implements OnInit {
       console.log(error);
     });
 
+  }
+
+  postTextToSpeech() {
+    const texto = (document.getElementById('inputText') as HTMLInputElement).value;
+    this.infoElevenService.postTextToSpeech(texto).then(response => {
+      const audioUrl = URL.createObjectURL(new Blob([response.data], { type: 'audio/mpeg' }));
+      const audio = new Audio(audioUrl);
+      audio.play();
+    })
+    .catch(error => {
+      console.error('API Error:', error);
+    })
   }
 
 //   // Define a function called textToSpeech that takes in a string called inputText as its argument.
